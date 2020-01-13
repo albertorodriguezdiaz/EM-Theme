@@ -1,0 +1,253 @@
+@media screen and (max-width: 1200px) {
+
+.tituloSeccion{
+  padding-left: 20px;
+
+  &::after{
+    left: 20px;
+  }
+}
+
+.binicio, .binicio img{
+  .owl-slide{
+    background-size: cover !important;
+  }
+}
+
+.menuBarTop{
+  #menu-menu-principal{
+    a{
+      @include estiloTexto($colorTextoTitulos, 17px, 500, left, 0,13px,normal,normal);
+      padding: 13px 7px;
+    }
+  }
+}
+
+.seccionSerAsociado{
+  .titloSerAsociado{
+    background-position: 180% 50%;
+  }
+}
+
+} //End 1200px
+
+
+@media screen and (max-width: 1060px) {
+  .menuBarTop{
+    #menu-menu-principal{
+      a{
+        @include estiloTexto($colorTextoTitulos, 16px, 500, left, 0,13px,normal,normal);
+        padding: 13px 7px;
+      }
+    }
+  }
+
+  .seccionSerAsociado{
+    .titloSerAsociado{
+      background-position: 200% 50%;
+    }
+  }
+
+
+
+
+  .seccionSabiasQue{
+    .textoSabias{
+      margin-top: 20px;
+    }
+    .imagenNoticiaHome{
+      margin: 0 auto;
+    }
+
+  }
+
+
+} // End 1060px
+
+
+@media screen and (max-width: 1024px) {
+
+  .seccionSerAsociado{
+    .titloSerAsociado{
+      background: none;
+    }
+  }
+
+  .menu900{
+    display: none;
+  }
+
+  .menuTopHeader, .menuFooter{
+    display: none;
+  }
+
+
+  #responsive-menu-container #responsive-menu-wrapper{
+    margin-top: 20px;
+  }
+
+  .binicio{
+    margin-top: 20px;
+  }
+
+
+
+} // End 1024px
+
+
+@media screen and (max-width: 1008px) {
+
+  .menuTop, .buscador{
+    display: none;
+  }
+
+  .logoTop{
+    padding-left: 20px;
+    padding-right: 100px;
+  }
+
+  .menuBarTop{
+    height: 100px;
+  }
+}
+
+
+@media screen and (max-width: 920px) {
+
+
+  .seccionAsociados{
+    background-size: cover !important;
+  }
+
+  .datosemotion{
+    .contenidoDatosemotion{
+      p{
+        @include estiloTexto($colorTextoTitulos, 20px, 500, left, 0 0 0 20px,7px 0 0 0,normal,normal);
+      }
+    }
+  }
+
+
+
+
+
+} // End 920px
+
+
+
+@media screen and (max-width: 640px) {
+
+  .menuBarTop{
+    height: 120px;
+  }
+
+  .aboutemotion{
+    background-position: left;
+    height: auto;
+    padding: 40px 20px;
+
+    p{
+      @include estiloTexto($colorTextoTitulos, 20px, 500, left, 0,0,normal,normal);
+      &::before{
+        content: none;
+      }
+    }
+
+  }
+
+
+  .serviciosHome{
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: auto;
+  }
+
+  .bgLogoHeader{
+    background: $colorBlanco;
+  }
+
+  .logoHeader{
+    text-align: center;
+    img{
+      margin-left: 0;
+      width: 250px;
+    }
+  }
+
+  .binicio, .binicio img{
+    height: 200px;
+
+    .owl-slide{
+      background-position: center center !important;
+
+    }
+  }
+
+  .botonR20{
+    margin: 0 20px;
+  }
+
+  .datosemotion{
+    margin-top: 0;
+    .contenidoDatosemotion{
+      position: relative;
+      border-radius: 0px;
+      padding: 40px 20px;
+      width: 100%;
+      height: auto;
+
+      .row{
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .botonSimulador{
+    margin-bottom: 20px;
+  }
+
+  .logoFonem{
+    padding: 10px 100px;
+    text-align: center;
+  }
+
+  .site-footer{
+
+    .textoFooter{
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
+
+  .itemSabias{
+    margin-top: 50px;
+  }
+
+.seccionSerAsociado{
+  .botonDescargarSolicitud{
+    width: 100%;
+  }
+}
+
+margin-top: 20px;
+
+
+} // End 640px
+
+
+
+@media screen and (max-width: 400px) {
+
+  .menuBarTop{
+    height: 100px;
+  }
+
+  .logoHeader{
+    img{
+      width: 180px;
+    }
+  }
+}
+
+
